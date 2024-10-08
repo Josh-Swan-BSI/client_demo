@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client Report</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        /* Internal CSS Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            padding-bottom: 50px;
+        }
+        .report-header {
+            background-color: #005EB8; /* BSI Blue */
+            color: #ffffff;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .report-header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section-title {
+            color: #005EB8;
+            border-bottom: 2px solid #005EB8;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .chart-container {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #005EB8;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="report-header">
+        <h1>Client Report</h1>
+        <p>Prepared for <strong>[Client Name]</strong></p>
+    </div>
+
+    <div class="container">
+        <!-- Introduction Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">Introduction</h2>
+                <p>Welcome to the client report. This section provides an overview of the report's purpose and scope.</p>
+            </div>
+        </div>
+
+        <!-- Data Analysis Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">Data Analysis</h2>
+                <div class="chart-container">
+                    <!-- Flourish Chart Embed -->
+                    <div class="flourish-embed" data-src="story/2149263?1258124" data-width="100%" data-height="800px">
+                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div>
+                </div>
+                <p>The above chart represents the data trends observed over the last quarter.</p>
+            </div>
+        </div>
+
+        <!-- Additional Sections -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">Findings</h2>
+                <p>Detailed findings and interpretations based on the data analysis are presented here.</p>
+            </div>
+        </div>
+
+        <!-- Conclusion Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">Conclusion</h2>
+                <p>A summary of the key points and recommendations for future action.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Your Company Name. All rights reserved.
+    </div>
+
+    <!-- Bootstrap JS and dependencies (Optional if you need interactive components) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+</body>
+</html>
